@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <title>Roy G. Biv</title>
 <head>
+  <title>Roy G. Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-Richard of York gave battle in vain.
+  <h1>Quiz Site</h1>
+  <div id="quiz-container">
+    <p id="question">Richard of York gave battle in vain</p>
+    <ul id="options">
+      <li><input type="radio" name="answer" id="option1"><label for="option1">Option 1</label></li>
+      <li><input type="radio" name="answer" id="option2"><label for="option2">Option 2</label></li>
+      <li><input type="radio" name="answer" id="option3"><label for="option3">Option 3</label></li>
+      <li><input type="radio" name="answer" id="option4"><label for="option4">Option 4</label></li>
+    </ul>
+    <button id="submit-btn">Submit</button>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
